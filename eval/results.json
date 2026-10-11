@@ -1,0 +1,65 @@
+{
+  "golden_set": "eval/golden_set.json",
+  "results": [
+    {
+      "n_queries": 30,
+      "n_found": 18,
+      "recall@1": 0.4,
+      "recall@3": 0.4666666666666667,
+      "recall@5": 0.5333333333333333,
+      "recall@10": 0.6,
+      "mrr": 0.4603174603174603,
+      "ndcg@10": 0.49375843812436854,
+      "mean_rank_when_found": 2.0555555555555554,
+      "median_latency_ms": 5.3,
+      "p95_latency_ms": 6.0,
+      "mode": "semantic",
+      "label": "Semantic only (bi-encoder)"
+    },
+    {
+      "n_queries": 30,
+      "n_found": 21,
+      "recall@1": 0.5666666666666667,
+      "recall@3": 0.6333333333333333,
+      "recall@5": 0.6666666666666666,
+      "recall@10": 0.7,
+      "mrr": 0.6058730158730159,
+      "ndcg@10": 0.6283705298046444,
+      "mean_rank_when_found": 1.619047619047619,
+      "median_latency_ms": 5.9,
+      "p95_latency_ms": 6.3,
+      "mode": "bm25",
+      "label": "BM25 only (keyword)"
+    },
+    {
+      "n_queries": 30,
+      "n_found": 23,
+      "recall@1": 0.3333333333333333,
+      "recall@3": 0.5666666666666667,
+      "recall@5": 0.6,
+      "recall@10": 0.7666666666666667,
+      "mrr": 0.46804232804232804,
+      "ndcg@10": 0.5388811806731494,
+      "mean_rank_when_found": 3,
+      "median_latency_ms": 11.2,
+      "p95_latency_ms": 12.0,
+      "mode": "rrf",
+      "label": "Hybrid + RRF"
+    },
+    {
+      "n_queries": 30,
+      "n_found": 25,
+      "recall@1": 0.6333333333333333,
+      "recall@3": 0.7333333333333333,
+      "recall@5": 0.8,
+      "recall@10": 0.8333333333333334,
+      "mrr": 0.7,
+      "ndcg@10": 0.7318519900500448,
+      "mean_rank_when_found": 1.8,
+      "median_latency_ms": 138.5,
+      "p95_latency_ms": 278.2,
+      "mode": "rrf_rerank",
+      "label": "Hybrid + RRF + cross-encoder rerank"
+    }
+  ]
+}

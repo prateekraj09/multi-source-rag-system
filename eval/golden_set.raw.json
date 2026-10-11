@@ -1,0 +1,242 @@
+[
+  {
+    "question": "What type of neural network architecture did the transformer design replace?",
+    "chunk_id": "fa2054b3983f01ae",
+    "chunk_text": ". Earlier designs implemented the attention mechanism in a serial recurrent neural network (RNN) language translation system, but a more recent design, namely the transformer, removed the slower sequential RNN and relied more heavily on the faster parallel attention scheme. Inspired by ideas about attention in humans, the attention mechanism was developed to address the weaknesses of using information from the hidden layers of recurrent neural networks",
+    "source": "https://en.wikipedia.org/wiki/Attention_(machine_learning)"
+  },
+  {
+    "question": "What is the direction in which BERT applies its self-attention mechanism to learn information from a text?",
+    "chunk_id": "6e2635bb5b5d5a3d",
+    "chunk_text": ". Their performance on these natural language understanding tasks are not yet well understood.[4][17][18] Several research publications in 2018 and 2019 focused on investigating the relationship behind BERT's output as a result of carefully chosen input sequences,[19][20] analysis of internal vector representations through probing classifiers,[21][22] and the relationships represented by attention weights.[17][18] The high performance of the BERT model could also be attributed to the fact that it is bidirectionally trained.[23] This means that BERT, based on the Transformer model architecture, applies its self-attention mechanism to learn information from a text from the left and right side",
+    "source": "https://en.wikipedia.org/wiki/BERT_(language_model)"
+  },
+  {
+    "question": "What is the title of the article by Kyle Wiggers published on Tech Crunch on 14 December 2024?",
+    "chunk_id": "1a0525e073a36864",
+    "chunk_text": ". The Decoder. Retrieved 30 June 2025. Wiggers, Kyle (14 December 2024). \"'Reasoning' AI models have become a trend, for better or worse\". Tech Crunch. Retrieved 16 November 2025. \"AI Developers Look Beyond Chain-of-Thought Prompting\". IEEE Spectrum. 8 May 2025. Retrieved 16 November 2025. 1 2 Metz, Cade (20 December 2024). \"Open AI Unveils New A.I. That Can 'Reason' Through Math and Science Problems\". The New York Times. Retrieved 3 February 2025. Gibney, Elizabeth (30 January 2025). \"China's cheap, open AI model Deep Seek thrills scientists\". Nature. 638 (8049): 13 14. Bibcode:2025 Natur.638...13 G. doi:10.1038/d 41586-025-00229-6. PMID 39849139. Retrieved 3 February 2025",
+    "source": "https://en.wikipedia.org/wiki/Large_language_model"
+  },
+  {
+    "question": "What is the title of the 2014 paper by Vinyals et al. that was published in Nips 2015?",
+    "chunk_id": "e6dd07cc7b1a13bd",
+    "chunk_text": ". Choe, Do Kook; Charniak, Eugene. \"Parsing as Language Modeling\". Emnlp 2016. Archived from the original on 2018-10-23. Retrieved 2018-10-22. Vinyals, Oriol; et al. (2014). \"Grammar as a Foreign Language\" (PDF). Nips 2015. ar Xiv:1412.7449. Bibcode:2014 ar Xiv 1412.7449 V. Turchin, Alexander; Florez Builes, Luisa F. (2021-03-19). \"Using Natural Language Processing to Measure and Improve Quality of Diabetes Care: A Systematic Review\". Journal of Diabetes Science and Technology. 15 (3): 553 560. doi:10.1177/19322968211000831. ISSN 1932-2968. PMC 8120048. PMID 33736486",
+    "source": "https://en.wikipedia.org/wiki/Natural_language_processing"
+  },
+  {
+    "question": "What is the formula for calculating the BM 25 score of a document?",
+    "chunk_id": "b53f8359c7211874",
+    "chunk_text": ". . . , q n {\\displaystyle q_{1},...,q_{n}} , the BM 25 score of a document D is: score ( D , Q ) = i = 1 n IDF ( q i ) f ( q i , D ) ( k 1 + 1 ) f ( q i , D ) + k 1 ( 1 b + b | D | avgdl ) {\\displaystyle {\\text{score}}(D,Q)=\\sum _{i=1}^{n}{\\text{IDF}}(q_{i})\\cdot {\\frac {f(q_{i},D)\\cdot (k_{1}+1)}{f(q_{i},D)+k_{1}\\cdot \\left(1-b+b\\cdot {\\frac {|D|}{\\text{avgdl}}}\\right)}}} where f ( q i , D ) {\\displaystyle f(q_{i},D)} is the number of times that the keyword q i {\\displaystyle q_{i}} occurs in the document D, | D | {\\displaystyle |D|} is the length of the document D in words, and avgdl is the average document length in the text collection from which documents are drawn",
+    "source": "https://en.wikipedia.org/wiki/Okapi_BM25"
+  },
+  {
+    "question": "What is the license under which Wikipedia's text is available?",
+    "chunk_id": "b718db762e198a35",
+    "chunk_text": ". Page was rendered with Parsoid. Text is available under the Creative Commons Attribution-Share Alike 4.0 License; additional terms may apply. By using this site, you agree to the Terms of Use and Privacy Policy. Wikipedia is a registered trademark of the Wikimedia Foundation, Inc., a non-profit organization. Privacy policy About Wikipedia Disclaimers Contact Wikipedia Legal & safety contacts Code of Conduct Developers Statistics Cookie statement Mobile view Search Search Toggle the table of contents Retrieval-augmented generation 22 languages Add topic",
+    "source": "https://en.wikipedia.org/wiki/Retrieval-augmented_generation"
+  },
+  {
+    "question": "What is the name of the dataset used to fine-tune BERT's [CLS] token embeddings in SBERT?",
+    "chunk_id": "5c2dda887d5f3c02",
+    "chunk_text": ". In practice however, BERT's sentence embedding with the [CLS] token achieves poor performance, often worse than simply averaging non-contextual word embeddings[8]. SBERT later achieved superior sentence embedding performance[8] by fine tuning BERT's [CLS] token embeddings through the usage of a siamese neural network architecture on the SNLI dataset. Other approaches are loosely based on the idea of distributional semantics applied to sentences. Skip-Thought trains an encoder-decoder structure for the task of neighboring sentences predictions; this has been shown to achieve worse performance than approaches such as Infer Sent or SBERT",
+    "source": "https://en.wikipedia.org/wiki/Sentence_embedding"
+  },
+  {
+    "question": "What is the one-hot representation of the input token with identifier 3?",
+    "chunk_id": "ec4812dba5b55340",
+    "chunk_text": ". For example, if the input token's identifier is 3 {\\displaystyle 3} , then the one-hot representation is [ 0 , 0 , 0 , 1 , 0 , 0 , ] {\\displaystyle [0,0,0,1,0,0,\\dots ]} , and its embedding vector is E m b e d ( 3 ) = [ 0 , 0 , 0 , 1 , 0 , 0 , ] M {\\displaystyle \\mathrm {Embed} (3)=[0,0,0,1,0,0,\\dots ]M} The token embedding vectors are added to their respective positional encoding vectors (see below), producing the sequence of input vectors",
+    "source": "https://en.wikipedia.org/wiki/Transformer_(deep_learning_architecture)"
+  },
+  {
+    "question": "What is the name of the field of artificial intelligence that involves learning to rank?",
+    "chunk_id": "27c6c6897555c2ff",
+    "chunk_text": "Meta-learning Few-shot learning Zero-shot learning Online learning Batch learning Curriculum learning Rule-based learning Neuro-symbolic AI Neuromorphic engineering Quantum machine learning Problems Classification Generative modeling Regression Clustering Dimensionality reduction Density estimation Anomaly detection Data cleaning Auto ML Association rules Semantic analysis Structured prediction Feature engineering Feature learning Learning to rank Grammar induction Ontology learning Multimodal learning Supervised learning(classification regression) Apprenticeship learning Decision trees Ensembles Bagging Boosting Random forest k-NN Linear regression Naive Bayes Artificial neural networks",
+    "source": "https://en.wikipedia.org/wiki/Vector_database"
+  },
+  {
+    "question": "What year did H.P. Luhn publish \"A New Method of Recording and Searching Information\"?",
+    "chunk_id": "a1157c17eab36da2",
+    "chunk_text": ". Retrieved 2014-08-14. Socher, Richard; Perelygin, Alex; Wu, Jean; Chuang, Jason; Manning, Chris; Ng, Andrew; Potts, Chris (2013). Recursive Deep Models for Semantic Compositionality Over a Sentiment Treebank (PDF). EMNLP. Sahlgren, Magnus. \"A brief history of word embeddings\". Firth, J.R. (1957). \"A synopsis of linguistic theory 1930 1955\". Studies in Linguistic Analysis: 1 32. Reprinted in F.R. Palmer, ed. (1968). Selected Papers of J.R. Firth 1952 1959. London: Longman.{{cite book}}: CS 1 maint: publisher location (link) Luhn, H.P. (1953). \"A New Method of Recording and Searching Information\". American Documentation. 4: 14 16. doi:10.1002/asi.5090040104",
+    "source": "https://en.wikipedia.org/wiki/Word_embedding"
+  },
+  {
+    "question": "What is the name of the person who is also known as the father of computer science?",
+    "chunk_id": "8e56688221caf06b",
+    "chunk_text": "Zero Open AI Five Self-driving car Mu Zero Action selection Auto GPT Robot control Reasoning systems Deductive classifiers Expert systems Inference engines Knowledge-based systems Logic programs Procedural reasoning systems Semantic reasoners Rule-based systems Cognitive architectures ACT-R Soar CLARION LIDA Open Cog Knowledge bases Concept Net Wikidata DBpedia YAGO People Alan Turing Warren Sturgis Mc Culloch Walter Pitts John von Neumann Christopher D",
+    "source": "https://en.wikipedia.org/wiki/Attention_(machine_learning)"
+  },
+  {
+    "question": "What is the title of the 2019 ACL Workshop Blackbox NLP?",
+    "chunk_id": "182b4157e632f4fd",
+    "chunk_text": ". doi:10.18653/v 1/D 19-1445. S 2 CID 201645145. 1 2 Clark, Kevin; Khandelwal, Urvashi; Levy, Omer; Manning, Christopher D. (2019). \"What Does BERT Look at? An Analysis of BERT's Attention\". Proceedings of the 2019 ACL Workshop Blackbox NLP: Analyzing and Interpreting Neural Networks for NLP. Stroudsburg, PA, USA: Association for Computational Linguistics: 276 286. ar Xiv:1906.04341. doi:10.18653/v 1/w 19-4828. Khandelwal, Urvashi; He, He; Qi, Peng; Jurafsky, Dan (2018). \"Sharp Nearby, Fuzzy Far Away: How Neural Language Models Use Context\". Proceedings of the 56 th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+    "source": "https://en.wikipedia.org/wiki/BERT_(language_model)"
+  },
+  {
+    "question": "When did a commercially available model based on LLM become available?",
+    "chunk_id": "fa9a4ec8d808343c",
+    "chunk_text": ". The other instance is able to complete the output and often produces the correct answer in doing so. The ability to \"self-instruct\" makes LLMs able to bootstrap themselves toward a correct answer.[44] Dialogue processing (chatbot)[edit] An LLM can be turned into a chatbot by specializing it for conversation. User input is prefixed with a marker such as \"Q:\" or \"User:\" and the LLM is asked to predict the output after a fixed \"A:\" or \"Assistant:\". This type of model became commercially available in 2022 with Chat GPT, a sibling model of Instruct GPT fine-tuned to accept and produce dialog-formatted text based on GPT-3.5. It could similarly follow user instructions",
+    "source": "https://en.wikipedia.org/wiki/Large_language_model"
+  },
+  {
+    "question": "What is the formula for the relative measure of meaning (RMM) in the given mathematical equation?",
+    "chunk_id": "2e700cd888b2a325",
+    "chunk_text": ". The mathematical equation for such algorithms is presented in US Patent 9269353:[55] R M M ( t o k e n N ) = P M M ( t o k e n N ) 1 2 d ( i = d d ( ( P M M ( t o k e n N ) P F ( t o k e n N i , t o k e n N , t o k e n N + i ) ) i ) {\\displaystyle {RMM(token_{N})}={PMM(token_{N})}\\times {\\frac {1}{2 d}}\\left(\\sum _{i=-d}^{d}{((PMM(token_{N})}\\times {PF(token_{N-i},token_{N},token_{N+i}))_{i}}\\right)} Where RMM is the relative measure of meaning token is any block of text, sentence, phrase or word N is the number of tokens being analyzed PMM is the probable measure of meaning based on a corpora d is the non-zero location of the token along the sequence of N tokens PF is the probability",
+    "source": "https://en.wikipedia.org/wiki/Natural_language_processing"
+  },
+  {
+    "question": "What is the name of the first system to use the Okapi BM 25 ranking function?",
+    "chunk_id": "b76bca7b6bd09130",
+    "chunk_text": ". It is based on the probabilistic retrieval framework developed in the 1970 s and 1980 s by Stephen E. Robertson, Karen Sp rck Jones, and others. The name of the actual ranking function is BM 25. The fuller name, Okapi BM 25, includes the name of the first system to use it, which was the Okapi information retrieval system, implemented at London's City University[1] in the 1980 s and 1990 s. BM 25 and its newer variants, e.g",
+    "source": "https://en.wikipedia.org/wiki/Okapi_BM25"
+  },
+  {
+    "question": "What is the primary function of RAG in improving LLMs?",
+    "chunk_id": "80d8700585ff900b",
+    "chunk_text": ". RAG improves LLMs by incorporating information retrieval before generating responses.[3] Unlike LLMs that rely on static training data, RAG pulls relevant text from databases, uploaded documents, or web sources.[1] According to Ars Technica, \"RAG is a way of improving LLM performance, in essence by blending the LLM process with a web search or other document look-up process to help LLMs stick to the facts.\" This method helps reduce AI hallucinations,[3] which have caused chatbots to describe policies that don't exist, or recommend nonexistent legal cases to lawyers that are looking for citations to support their arguments.[4] RAG also reduces the need to retrain LLMs with new data, saving",
+    "source": "https://en.wikipedia.org/wiki/Retrieval-augmented_generation"
+  },
+  {
+    "question": "What is the title of the 2019 Conference of the North?",
+    "chunk_id": "2c2d2df6f514d01e",
+    "chunk_text": ". Ionescu, Radu Tudor; Butnaru, Andrei (2019). \"Vector of Locally-Aggregated Word Embeddings (\". Proceedings of the 2019 Conference of the North. Minneapolis, Minnesota: Association for Computational Linguistics. pp. 363 369. doi:10.18653/v 1/N 19-1033. S 2 CID 85500146. Lewis, Patrick; Perez, Ethan; Piktus, Aleksandra; Petroni, Fabio; Karpukhin, Vladimir; Goyal, Naman; K ttler, Heinrich; Lewis, Mike; Yih, Wen-tau; Rockt schel, Tim; Riedel, Sebastian; Kiela, Douwe (2020). \"Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks\". ar Xiv:2005.11401 [cs.CL]. Marco Marelli, Stefano Menini, Marco Baroni, Luisa Bentivogli, Raffaella Bernardi, and Roberto Zamparelli",
+    "source": "https://en.wikipedia.org/wiki/Sentence_embedding"
+  },
+  {
+    "question": "What is the formula for calculating attention in the given context?",
+    "chunk_id": "f3690fd6458e635d",
+    "chunk_text": ". The matrices Q {\\displaystyle Q} , K {\\displaystyle K} and V {\\displaystyle V} are defined as the matrices where the i {\\displaystyle i} th rows are vectors q i {\\displaystyle q_{i}} , k i {\\displaystyle k_{i}} , and v i {\\displaystyle v_{i}} respectively. Then we can represent the attention as Attention ( Q , K , V ) = softmax ( Q K T d k ) V {\\displaystyle {\\begin{aligned}{\\text{Attention}}(Q,K,V)={\\text{softmax}}\\left({\\frac {QK^{\\mathrm {T} }}{\\sqrt {d_{k}}}}\\right)V\\end{aligned}}} where the softmax is applied over each of the rows of the matrix",
+    "source": "https://en.wikipedia.org/wiki/Transformer_(deep_learning_architecture)"
+  },
+  {
+    "question": "What is the main topic of the Wikipedia article?",
+    "chunk_id": "8095ab9710e1b756",
+    "chunk_text": "Vector database - Wikipedia Jump to content Main menu Main menu move to sidebar hide Navigation Main page Contents Current events Random article About Wikipedia Contact us Contribute Help Learn to edit Community portal Recent changes Upload file Special pages Search Search Appearance Donate Create account Log in Personal tools Donate Create account Log in Contents move to sidebar hide (Top) 1 Techniques 2 Applications Toggle Applications subsection 2.1 Retrieval-augmented generation 3 Implementations 4 See also 5 References 6 External links Toggle the table of contents Vector database 10 languages Catal e tina Deutsch Espa ol Fran ais Edit links Article Talk English Read Edit View history",
+    "source": "https://en.wikipedia.org/wiki/Vector_database"
+  },
+  {
+    "question": "What is the title of the 2014 paper by Levy and Goldberg?",
+    "chunk_id": "d3599a907ffb53a4",
+    "chunk_text": ". \"Distributed Representations of Words and Phrases and their Compositionality\". ar Xiv:1310.4546 [cs.CL]. Lebret, R mi; Collobert, Ronan (2013). \"Word Emdeddings through Hellinger PCA\". Conference of the European Chapter of the Association for Computational Linguistics (EACL). Vol. 2014. ar Xiv:1312.5542. Levy, Omer; Goldberg, Yoav (2014). Neural Word Embedding as Implicit Matrix Factorization (PDF). NIPS. Li, Yitan; Xu, Linli (2015). Word Embedding Revisited: A New Representation Learning and Explicit Matrix Factorization Perspective (PDF). Int'l J. Conf. on Artificial Intelligence (IJCAI). Globerson, Amir (2007). \"Euclidean Embedding of Co-occurrence Data\" (PDF)",
+    "source": "https://en.wikipedia.org/wiki/Word_embedding"
+  },
+  {
+    "question": "What are the parameter matrices used in the computation of each head in the Multi Head function?",
+    "chunk_id": "2512ea4e0e00026d",
+    "chunk_text": ". . . , head h ) W O {\\displaystyle {\\text{Multi Head}}(Q,K,V)={\\text{Concat}}({\\text{head}}_{1},...,{\\text{head}}_{h})W^{O}} where each head is computed with QKV attention as: head i = Attention ( Q W i Q , K W i K , V W i V ) {\\displaystyle {\\text{head}}_{i}={\\text{Attention}}(QW_{i}^{Q},KW_{i}^{K},VW_{i}^{V})} and W i Q , W i K , W i V {\\displaystyle W_{i}^{Q},W_{i}^{K},W_{i}^{V}} , and W O {\\displaystyle W^{O}} are parameter matrices. The permutation properties of (standard, unmasked) QKV attention apply here also",
+    "source": "https://en.wikipedia.org/wiki/Attention_(machine_learning)"
+  },
+  {
+    "question": "What is the name of the concept that combines a pre-trained language model with a task-specific model?",
+    "chunk_id": "f28a8b90dc47af23",
+    "chunk_text": ". Category Outline vte Large language models (LLMs) List of LLMs AI Companies Benchmarks List of chatbots Foundation model Generative AI Concepts Language model NLP NLG Computational linguistics Foundation model Small language model Reasoning model Generative pre-trained transformer Transformer Attention KV cache Context window Tokenization Word embedding Parameter Hyperparameter Autoregression Mixture of experts (Mo E) Inference Model compression Knowledge distillation Speculative decoding Paged Attention Neural scaling law Multimodality Open weights Training, prompting,and alignment Self-supervised learning Supervised learning Fine-tuning Instruction tuning RLHF Constitutional AI AI",
+    "source": "https://en.wikipedia.org/wiki/BERT_(language_model)"
+  },
+  {
+    "question": "What is the goal of reverse-engineering model components in mechanistic interpretability?",
+    "chunk_id": "f8634d6958a62493",
+    "chunk_text": ". Interpretation[edit] Mechanistic interpretability[edit] Mechanistic interpretability seeks to precisely identify and understand how individual neurons or circuits within LLMs produce specific behaviors or outputs. By reverse-engineering model components at a granular level, researchers aim to detect and mitigate safety concerns such as emergent harmful behaviors, biases, deception, or unintended goal pursuit before deployment",
+    "source": "https://en.wikipedia.org/wiki/Large_language_model"
+  },
+  {
+    "question": "What are some examples of frameworks that have been used to develop cognitive models in NLP?",
+    "chunk_id": "4502f27b49b7d739",
+    "chunk_text": ". Nevertheless, approaches to develop cognitive models towards technically operationalizable frameworks have been pursued in the context of various frameworks, e.g., of cognitive grammar,[56] functional grammar,[57] construction grammar,[58] computational psycholinguistics and cognitive neuroscience (e.g., ACT-R), however, with limited uptake in mainstream NLP (as measured by presence on major conferences[59] of the ACL)",
+    "source": "https://en.wikipedia.org/wiki/Natural_language_processing"
+  },
+  {
+    "question": "What is the deficiency that BM 25+ was developed to address?",
+    "chunk_id": "8974a360a14c0a32",
+    "chunk_text": ". BM 25 F defines each type of field as a stream, applying a per-stream weighting to scale each stream against the calculated score. BM 25+[7] is an extension of BM 25. BM 25+ was developed to address one deficiency of the standard BM 25 in which the component of term frequency normalization by document length is not properly lower-bounded; as a result of this deficiency, long documents which do match the query term can often be scored unfairly by BM 25 as having a similar relevancy to shorter documents that do not contain the query term at all",
+    "source": "https://en.wikipedia.org/wiki/Okapi_BM25"
+  },
+  {
+    "question": "What is the name of the hypothetical AI that surpasses human intelligence?",
+    "chunk_id": "4fd32781605d9f73",
+    "chunk_text": "Reinforcement learning Q-learning SARSA Imitation Policy gradient Diffusion Latent diffusion model Autoregression Adversary RAG Uncanny valley LLM post-training RLHF Self-supervised learning Reflection Recursive self-improvement Hallucination Word embedding Vibe coding Symbolic AI Neuro-symbolic AI Applications Automated theorem proving General game playing Machine learning In-context learning Artificial neural network Deep learning Language model Large NMT Reasoning Model Context Protocol Intelligent agent AI agent Artificial human companion Humanity's Last Exam Lethal autonomous weapons (LAWs) Generative AI Weak AI Hypothetical Artificial general intelligence (AGI) Artificial",
+    "source": "https://en.wikipedia.org/wiki/Retrieval-augmented_generation"
+  },
+  {
+    "question": "What is the name of the machine learning algorithm that uses a set of support vectors to find the best hyperplane?",
+    "chunk_id": "671f89300cebd295",
+    "chunk_text": "Neuro-symbolic AI Neuromorphic engineering Quantum machine learning Problems Classification Generative modeling Regression Clustering Dimensionality reduction Density estimation Anomaly detection Data cleaning Auto ML Association rules Semantic analysis Structured prediction Feature engineering Feature learning Learning to rank Grammar induction Ontology learning Multimodal learning Supervised learning(classification regression) Apprenticeship learning Decision trees Ensembles Bagging Boosting Random forest k-NN Linear regression Naive Bayes Artificial neural networks Logistic regression Perceptron Relevance vector machine (RVM) Support vector machine (SVM) Clustering BIRCH CURE",
+    "source": "https://en.wikipedia.org/wiki/Sentence_embedding"
+  },
+  {
+    "question": "What year was DALL-E 1 released?",
+    "chunk_id": "696135094f44d976",
+    "chunk_text": ". Conformer[47] and later Whisper[110] follow the same pattern for speech recognition, first turning the speech signal into a spectrogram, which is then treated like an image, i.e. broken down into a series of patches, turned into vectors and treated like embedding vector of tokens in a standard transformer. Perceivers[111][112] are a variant of transformers designed for multimodality. For image generation, notable architectures are DALL-E 1 (2021), Parti (2022),[113] Phenaki (2023),[114] and Muse (2023).[115] Unlike later models, DALL-E is not a diffusion model",
+    "source": "https://en.wikipedia.org/wiki/Transformer_(deep_learning_architecture)"
+  },
+  {
+    "question": "What is typically used to compute the feature vector for each document or document section?",
+    "chunk_id": "9aa439fe856c7edd",
+    "chunk_text": ". Text documents describing the domain of interest are collected, and for each document or document section, a feature vector (known as an \"embedding\") is computed, typically using a deep learning network, and stored in a vector database along with a link to the document. Given a user prompt, the feature vector of the prompt is computed, and the database is queried to retrieve the most relevant documents",
+    "source": "https://en.wikipedia.org/wiki/Vector_database"
+  },
+  {
+    "question": "What is the name of the popular language model mentioned in the passage?",
+    "chunk_id": "6d084f7736a79d41",
+    "chunk_text": "mining Textual entailment Truecasing Word-sense disambiguation Word-sense induction Text segmentation Compound-term processing Lemmatization Lexical analysis Text chunking Stemming Sentence segmentation Word segmentation Automatic summarization Multi-document summarization Sentence extraction Text simplification Machine translation Computer-assisted Example-based Rule-based Statistical Transfer-based Neural Distributional semantics models BERT Document-term matrix Explicit semantic analysis fast Text Glo Ve Language model large small Latent semantic analysis Long short-term memory Seq 2 seq Transformer Word embedding Word 2 vec Language resources,datasets and corpora Types andstandards",
+    "source": "https://en.wikipedia.org/wiki/Word_embedding"
+  },
+  {
+    "question": "What is the name of the AI model that can generate human-like speech?",
+    "chunk_id": "762296459a1ea07d",
+    "chunk_text": "Artificial general intelligence (AGI) Artificial superintelligence (ASI) Agent 2 Agent protocol Physical AI Implementations Audio visual Alex Net Wave Net Human image synthesis HWR OCR Computer vision Speech synthesis 15.ai Eleven Labs Speech recognition Whisper Facial recognition Alpha Fold Text-to-image models Aurora DALL-E Firefly Flux GPT Image Ideogram Imagen Midjourney Recraft Stable Diffusion Text-to-video models Dream Machine Runway Gen Hailuo AI Kling Sora Seedance Veo Music generation Riffusion Suno Udio World models Genie Oasis Text List of large language models Project Debater IBM Watson IBM Watsonx Decisional Alpha Go Alpha Zero Open AI Five Self-driving car Mu Zero Action",
+    "source": "https://en.wikipedia.org/wiki/Attention_(machine_learning)"
+  },
+  {
+    "question": "What is the location of the Android Developer Lab?",
+    "chunk_id": "0d652c5878a52497",
+    "chunk_text": "You Tube Creator Awards You Tube Select You Tube Original Channel Initiative Year in Search You Tube Rewind 2018 2019 Events Alpha Go versus Fan Hui Alpha Go versus Lee Sedol Alpha Go versus Ke Jie Android Developer Challenge Android Developer Day Android Developer Lab CNN/You Tube presidential debates Code-in Code Jam Developer Day Developers Live Doodle 4 Google Future of Go Summit G-Day Hash Code I/O Lunar X Prize Mapathon Science Fair Summer of Code World Chess Championship 2024 You Tube Awards You Tube Comedy Week You Tube Live You Tube Music Awards 2013 2015 You Tube Space Lab You Tube Symphony Orchestra Infrastructure 111 Eighth Avenue Android lawn statues Androidland Barges",
+    "source": "https://en.wikipedia.org/wiki/BERT_(language_model)"
+  },
+  {
+    "question": "What is the title of the paper by Liu, Haotian; Li, Chunyuan; Wu, Qingyang; Lee, Yong Jae?",
+    "chunk_id": "252ab067bde60ffb",
+    "chunk_text": ". PMID 39849139. Retrieved 3 February 2025. Kiros, Ryan; Salakhutdinov, Ruslan; Zemel, Rich (18 June 2014). \"Multimodal Neural Language Models\". Proceedings of the 31 st International Conference on Machine Learning. PMLR: 595 603. Archived from the original on 2 July 2023. Retrieved 2 July 2023. Driess, Danny; Xia, Fei; Sajjadi, Mehdi S. M.; Lynch, Corey; Chowdhery, Aakanksha; Ichter, Brian; et al. (1 March 2023). \"Pa LM-E: An Embodied Multimodal Language Model\". ICML. 202: 8469 8488. Liu, Haotian; Li, Chunyuan; Wu, Qingyang; Lee, Yong Jae (1 April 2023). \"Visual Instruction Tuning\". Neur IPS. Zhang, Hang; Li, Xin; Bing, Lidong (1 June 2023)",
+    "source": "https://en.wikipedia.org/wiki/Large_language_model"
+  },
+  {
+    "question": "What is the name of the British neuroscientist mentioned in the context of the free energy principle?",
+    "chunk_id": "28ddaaab5e672997",
+    "chunk_text": ". More recently, ideas of cognitive NLP have been revived as an approach to achieve explainability, e.g., under the notion of \"cognitive AI\".[60] Likewise, ideas of cognitive NLP are inherent to neural models multimodal NLP (although rarely made explicit)[61] and developments in artificial intelligence, specifically tools and technologies using large language model approaches[62] and new directions in artificial general intelligence based on the free energy principle[63] by British neuroscientist and theoretician at University College London Karl J. Friston",
+    "source": "https://en.wikipedia.org/wiki/Natural_language_processing"
+  },
+  {
+    "question": "What is the ISBN of the proceedings of the thirteenth ACM international conference on Information and knowledge management?",
+    "chunk_id": "46417ab7c6653ae9",
+    "chunk_text": ". Proceedings of the thirteenth ACM international conference on Information and knowledge management. CIKM '04. New York, NY, USA: Association for Computing Machinery. pp. 42 49. doi:10.1145/1031171.1031181. ISBN 978-1-58113-874-0. S 2 CID 16628332. Yuanhua Lv and Cheng Xiang Zhai. Lower-bounding term frequency normalization. In Proceedings of CIKM'2011, pages 7-16. General references[edit] Stephen E. Robertson; Steve Walker; Susan Jones; Micheline Hancock-Beaulieu & Mike Gatford (November 1994). Okapi at TREC-3. Proceedings of the Third Text REtrieval Conference (TREC 1994). Gaithersburg, USA. Stephen E. Robertson; Steve Walker & Micheline Hancock-Beaulieu (November 1998). Okapi at TREC-7",
+    "source": "https://en.wikipedia.org/wiki/Okapi_BM25"
+  },
+  {
+    "question": "What year did Israel pay $6 million to sway public opinion?",
+    "chunk_id": "fe373a50b5f8412f",
+    "chunk_text": ". Additionally, when faced with conflicting information, RAG models may struggle to determine which source is accurate. The worst case outcome of this limitation is that the model may combine details from multiple sources producing responses that merge outdated and updated information in a misleading manner. According to the MIT Technology Review, these issues occur because RAG systems may misinterpret the data they retrieve.[2] On September 2025, Israel paid $6 million in order to sway public opinion to a more favourable for the country (hasbara), based on this limitation.[18][19] References[edit] 1 2 3 4 5 6 \"What is retrieval-augmented generation?\". IBM. 22 August 2023",
+    "source": "https://en.wikipedia.org/wiki/Retrieval-augmented_generation"
+  },
+  {
+    "question": "What is the license under which the text of this page is available?",
+    "chunk_id": "79381b3fa6f3d8cb",
+    "chunk_text": ". ar Xiv.org. Retrieved 2026-06-08. Retrieved from \" https://en.wikipedia.org/w/index.php?title=Sentence_embedding&oldid=1360544755\" Categories: Language modeling Artificial neural networks Natural language processing Computational linguistics Hidden categories: Articles with short description Short description is different from Wikidata All articles with unsourced statements Articles with unsourced statements from May 2024 CS 1 errors: missing periodical This page was last edited on 22 June 2026, at 04:19 (UTC). Page was rendered with Parsoid. Text is available under the Creative Commons Attribution-Share Alike 4.0 License; additional terms may apply",
+    "source": "https://en.wikipedia.org/wiki/Sentence_embedding"
+  },
+  {
+    "question": "How many sublayers are in each type of layer in the full transformer architecture?",
+    "chunk_id": "8d88cf3b97a980e4",
+    "chunk_text": ". The last decoder is followed by a final un-embedding layer to produce the output probabilities over the vocabulary. Then, one of the tokens is sampled according to the probability, and the decoder can be run again to produce the next token, etc., autoregressively generating output text. Full transformer architecture[edit] Sublayers[edit] (a) One encoder layer and one decoder layer. (b) Two encoder layers and two decoder layers. The sublayers are labelled as well. Each encoder layer contains 2 sublayers: the self-attention and the feedforward network. Each decoder layer contains 3 sublayers: the causally masked self-attention, the cross-attention, and the feedforward network",
+    "source": "https://en.wikipedia.org/wiki/Transformer_(deep_learning_architecture)"
+  },
+  {
+    "question": "What is the typical range of the number of dimensions in this data representation space?",
+    "chunk_id": "9bf5b3cd2377c9f8",
+    "chunk_text": ". In this space, each dimension corresponds to a feature of the data, with the number of dimensions ranging from a few hundred to tens of thousands, depending on the complexity of the data being represented. Each data item is represented by one vector in this space. Words, phrases, or entire documents, as well as images, audio, and other types of data, can all be vectorized.[1] These feature vectors may be computed from the raw data using machine learning methods such as feature extraction algorithms, word embeddings[4] or deep learning networks. The goal is that semantically similar data items receive feature vectors close to each other",
+    "source": "https://en.wikipedia.org/wiki/Vector_database"
+  },
+  {
+    "question": "What is a representation of a word in natural language processing?",
+    "chunk_id": "27b301f96057d58a",
+    "chunk_text": "Coefficient of determination Confusion matrix Learning curve ROC curve Mathematical foundations Kernel machines Bias variance tradeoff Computational learning theory Empirical risk minimization Occam learning PAC learning Statistical learning VC theory Topological deep learning Journals and conferences AAAI CVPR ECCV ECML PKDD EMNLP ICCV Neur IPS ICML ICLR IJCAI ML JMLR Related articles Glossary of artificial intelligence List of datasets for machine-learning research List of datasets in computer vision and image processing Outline of machine learning vte In natural language processing, a word embedding is a representation of a word",
+    "source": "https://en.wikipedia.org/wiki/Word_embedding"
+  }
+]

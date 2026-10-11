@@ -1,0 +1,39 @@
+# Core RAG stack
+langchain
+langchain-community
+langchain-chroma
+langchain-groq
+langchain-huggingface
+langchain-text-splitters
+# 0.4.x referenced np.float_, removed in NumPy 2.0. 0.5.15+ is NumPy 2 compatible.
+chromadb>=0.5.15
+
+# Retrieval
+rank-bm25
+sentence-transformers>=3.0.0
+
+# Sentence-window retrieval experiment
+llama-index
+llama-index-embeddings-huggingface
+
+# Ingestion
+pymupdf
+beautifulsoup4
+lxml
+requests
+
+# UI and visualisation
+streamlit
+umap-learn
+plotly
+
+# Utilities
+python-dotenv
+numpy
+scipy
+scikit-learn
+pandas
+protobuf>=4.25.0
+
+# Development
+pytest>=8.0.0
